@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OrderActivity">
+
+    <TextView
+        android:id="@+id/szczegolyZamowienia"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Skompletuj zamówienie"
+        android:textColor="#13359C"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tytulX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/tytulx"
+        android:textColor="#13359C"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tytułOpis"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:gravity="center_horizontal"
+        android:text="TextView"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/autorX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/autorx"
+        android:textColor="#13359C"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/autorOpis"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:gravity="center_horizontal"
+        android:text="TextView"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/opisX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/opisx"
+        android:textColor="#13359C"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/opisOpis"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:gravity="center_horizontal"
+        android:text="TextView"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/szczegolyZamowienia2"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Podaj dane do zamówienia"
+        android:textColor="#13359C"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/dataZamowienia"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="Data (dzień-miesiąc-rok)" />
+
+    <EditText
+        android:id="@+id/daneZamowienia"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Twoje imię i nazwisko" />
+
+    <Button
+        android:id="@+id/zamawiaj"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/zamawiaj" />
+
+    <Button
+        android:id="@+id/anuluj"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EE0000"
+        android:text="@string/anuluj" />
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">GoogleBooksAsyncTask</string>
+    <string name="tytul_ksiazki">Wpisz tytuł szukanej książki</string>
+    <string name="szukaj">Szukaj</string>
+    <string name="no_results">No results</string>
+    <string name="no_search_term">No search term</string>
+    <string name="no_network">No network</string>
+    <string name="tytul">Tytuł</string>
+    <string name="autor">Autor</string>
+    <string name="nie_znaleziono">Nie znaleziono</string>
+    <string name="szczegoly_zamowienia">Szczegóły zamówienia</string>
+    <string name="tytulx">Tytuł:</string>
+    <string name="autorx">Autor:</string>
+    <string name="opisx">Opis:</string>
+    <string name="data_w_formacie_dd_mm_yyyy">Data w formacie DD-MM-YYYY</string>
+    <string name="imi_i_nazwisko_zamawiaj_cego">Imię i nazwisko zamawiającego</string>
+    <string name="anuluj">Anuluj</string>
+    <string name="zamawiaj">Zamawiaj</string>
+    <string name="nie_podano">Nie podano tytułu książki</string>
+    <string name="brak_polaczenia">Brak połączenie z internetem</string>
+</resources>

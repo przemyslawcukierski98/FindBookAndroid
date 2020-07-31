@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/hello"
+        style="@android:style/Widget.TextView.PopupMenu"
+        android:layout_width="match_parent"
+        android:layout_height="563dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center|center_vertical"
+        android:text="Witaj! Wpisz tytuł książki, której szukasz"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/wpiszTytulKsiazki"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/wyszukajKsiazke"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="@string/szukaj"
+        android:textColorHighlight="#A52828"
+        android:textColorLink="#DD2D2D" />
+
+    <Button
+        android:id="@+id/informacjeOMnie"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="O AUTORZE"
+        android:textColorHighlight="#A52828"
+        android:textColorLink="#DD2D2D" />
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tytulX"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="20px"
+        android:text="Tytuł:"
+        android:textColor="#022383"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tytulDane"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:text="-"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/autorX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Autor:"
+        android:textColor="#1426AF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/autorDane"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="-"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/opisX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Opis:"
+        android:textColor="#0C2581"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/opisDane"
+        android:layout_width="match_parent"
+        android:layout_height="369dp"
+        android:text="-"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/wyswietlDane"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="POKAŻ SZCZEGÓŁY"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/zamow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="zamów"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EE0000"
+        android:text="@string/anuluj"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
